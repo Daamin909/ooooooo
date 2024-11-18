@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener 😉</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">OOO00OooOO00OOooOOoO 😉</h1>
+      <p class="subtitle">
+        Make your URLs as short as possible (completely true)
+      </p>
+      <form id="lengthener-form">
+        <input
+          type="text"
+          id="url-input"
+          placeholder="Enter your URL"
+          required
+        />
+        <button type="submit" id="submit-button">OOOO-ify</button>
+      </form>
+      <div id="result" class="hidden">
+        <h2>Lengthened URL:</h2>
+        <p id="lengthened-url"></p>
+      </div>
+    </div>
+    <div id="dialogBox" class="dialog">
+      <div class="dialog-content">
+        <p id="dialog-info" class="dialog-info" title="Click to copy">
+          This is a nice dialog box.
+        </p>
+        <button id="okBtn" class="ok-btn">OK</button>
+      </div>
+    </div>
+    <div id="loading-screen">
+      <div class="loader"></div>
+      <p class="loading-text">OOO00OooOO00OOooOOoO-ing your URL</p>
+    </div>
+  </body>
+  <script src="/static/script.js"></script>
+</html>
