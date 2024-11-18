@@ -7,8 +7,8 @@ Welcome to **oo0oo0o0ooo0**! This is a fun, joke project where we take a short U
 ## Features
 
 - **Transform short URLs** into absurdly long ones.
-- **Totally customizable** – You can add your own rules to make the URLs even longer.
 - **Just for laughs** – No practical use, just pure fun!
+- **Persistent Storage** - The storage is persistent and the URL is never forgotten.
 
 ## Usage
 
