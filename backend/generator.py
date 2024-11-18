@@ -1,7 +1,6 @@
 from pymongo import MongoClient
-from dotenv import load_dotenv
+
 import os, random, math
-load_dotenv()
 try:
     client = MongoClient(os.getenv("MONGO_URL"))
     db = client["url-lengthener"]
