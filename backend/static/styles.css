@@ -167,14 +167,18 @@ form {
   text-align: center;
   width: 300px;
 }
-
+.dialog-content h1 {
+  color: black;
+}
 .dialog-info {
   font-size: 16px;
   color: #333;
+  width: 100%;
   margin-bottom: 20px;
   cursor: pointer;
   user-select: none; /* Disable text selection */
   transition: all 0.3s ease;
+  word-wrap: break-word;
 }
 
 .dialog-info:hover {

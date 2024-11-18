@@ -40,7 +40,7 @@ document
     if (check(input)) {
       const loader = document.getElementById("loading-screen");
       loader.style.display = "flex";
-      fetch("http://127.0.0.1:5000/lengthen", {
+      fetch("https://oo0oo0o0ooo0.daamin.tech/lengthen", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -52,7 +52,7 @@ document
           loader.style.display = "none";
           document.getElementById("dialogBox").classList.add("show");
           document.getElementById("dialog-info").innerText =
-            data.lengthened_url;
+            "https://oo0oo0o0ooo0.daamin.tech/" + data.lengthened_url;
           console.log(data.lengthened_url);
         });
     } else {
